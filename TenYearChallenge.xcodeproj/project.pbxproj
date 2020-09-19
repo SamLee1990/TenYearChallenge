@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		04BA6ACF250F162200459ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA6ACE250F162200459ABD /* AppDelegate.swift */; };
 		04BA6AD1250F162200459ABD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA6AD0250F162200459ABD /* SceneDelegate.swift */; };
-		04BA6AD3250F162200459ABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA6AD2250F162200459ABD /* ViewController.swift */; };
 		04BA6AD6250F162200459ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA6AD4250F162200459ABD /* Main.storyboard */; };
 		04BA6AD8250F162400459ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BA6AD7250F162400459ABD /* Assets.xcassets */; };
 		04BA6ADB250F162400459ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BA6AD9250F162400459ABD /* LaunchScreen.storyboard */; };
+		04BA6AE3250F629800459ABD /* TenYearChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA6AE2250F629800459ABD /* TenYearChallengeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04BA6ACB250F162200459ABD /* TenYearChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenYearChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04BA6ACE250F162200459ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04BA6AD0250F162200459ABD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04BA6AD2250F162200459ABD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04BA6AD5250F162200459ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04BA6AD7250F162400459ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04BA6ADA250F162400459ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BA6ADC250F162400459ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BA6AE2250F629800459ABD /* TenYearChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenYearChallengeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				04BA6ACE250F162200459ABD /* AppDelegate.swift */,
 				04BA6AD0250F162200459ABD /* SceneDelegate.swift */,
-				04BA6AD2250F162200459ABD /* ViewController.swift */,
 				04BA6AD4250F162200459ABD /* Main.storyboard */,
+				04BA6AE2250F629800459ABD /* TenYearChallengeViewController.swift */,
 				04BA6AD7250F162400459ABD /* Assets.xcassets */,
 				04BA6AD9250F162400459ABD /* LaunchScreen.storyboard */,
 				04BA6ADC250F162400459ABD /* Info.plist */,
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04BA6AD3250F162200459ABD /* ViewController.swift in Sources */,
 				04BA6ACF250F162200459ABD /* AppDelegate.swift in Sources */,
+				04BA6AE3250F629800459ABD /* TenYearChallengeViewController.swift in Sources */,
 				04BA6AD1250F162200459ABD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
